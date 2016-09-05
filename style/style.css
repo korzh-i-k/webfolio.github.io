@@ -1,0 +1,249 @@
+/* анимация*/
+
+#menu td :hover {
+	-moz-animation: puffIn 2s;
+	-webkit-animation: puffIn_webkit 2s;
+	-ms-animation: puffIn_ms 2s;
+	-o-animation: puffIn 2s;
+}
+
+#logo a:hover {
+	-moz-animation: rubberBand 1s;
+	-webkit-animation: rubberBand 1s;
+	-ms-animation: rubberBand 1s;
+	-o-animation: rubberBand 1s;
+}
+
+#gall1 a:hover, #gall2 a:hover, #gall3 a:hover {
+	-moz-animation: swashIn 1.3s;
+	-webkit-animation: swashIn_webkit 1.3s;
+	-ms-animation: swashIn_ms 1.3s;
+	-o-animation: swashIn 1.3s;
+}
+
+#links a:hover {
+	-moz-animation: pulse 1s;
+	-webkit-animation: pulse 1s;
+	-ms-animation: pulse 1s;
+}
+
+/*основная часть*/
+
+body {
+	width: 1280px;
+	background: #fff;
+	margin: 0 auto;
+}
+
+header {
+	background: #fff;
+	width: 1020px;
+	height: 100px;
+	margin: 0 auto;
+}
+
+#text-logo1 {
+	font-family: "BM spiral Cap Cyr", arial;
+	font-size: 40px;
+	color: #000;
+	margin-top: 10px;
+	text-decoration: none;
+	display: block;
+}
+
+#text-logo2 {
+	font-family: Arial;
+	font-size: 14px;
+	color: #000;
+	margin-top: -3px;
+}
+
+#logo {
+	float: left;
+}
+
+#menu {
+	width: 352px;
+	height: 75px;
+	float: right;
+	text-align: center;
+}
+
+#menu td {
+	font-family: "Helvetica LT Std";
+	border: 0px solid black;
+	vertical-align: bottom;
+	padding-bottom: 10px;
+}
+
+#menu a {
+	text-decoration: none;
+	color: #000;
+}
+
+#HOME {
+	background: #d45e5e;
+}
+
+#HOME a {
+	color: #fff;
+}
+
+#text1 {
+	margin: 0 auto;
+	width: 1024px;
+	height: 210px;
+	background: url(../images/body_tytel_03.png) bottom center no-repeat;
+	margin-bottom: 50px;
+}
+
+#text1_1 {
+	margin: 0 auto;
+	width: 40px;
+	height: 48px;
+	background: url(../images/body_tytel_01.png) top center no-repeat;
+	margin-top: 70px;
+	margin-bottom: 30px;
+}
+
+.text1_2 {
+	margin: 0 auto;
+	text-align: center;
+	font-family: Cambria;
+	font-size: 23px;
+	font-style: italic;
+}
+
+#portfolio {
+	margin: 0 auto;
+	width: 920px;
+	box-sizing: border-box;
+	margin-bottom: 20px;
+}
+
+.text_port {
+	margin: 0 auto;
+	text-align: left;
+	font-family: Cambria;
+	font-size: 23px;
+	font-style: italic;
+}
+
+#gall1, #gall2 {
+	padding-bottom: 25px;
+	width: 920px;
+	height: 205px;
+}
+
+#gall3 {
+	padding-bottom: 120px;
+	width: 920px;
+	height: 205px;
+}
+
+.gall {
+	padding-right: 25px;
+}
+
+footer {
+	padding: 0;
+	margin: 0 auto;
+	background: #d45e5e;
+	height: 250px;
+	box-sizing: border-box;
+}
+
+#foto {
+	width: 150px;
+	height: 150px;
+	background: #fff;
+	position: absolute; /* Абсолютное позиционирование */
+	top: 1215px; /* Положение от верхнего края */
+	left: 220px; /* Положение от левого края */
+}
+
+.kote {
+	width: 132px;
+	height: 132px;
+	display: block;
+	margin: 10px auto;
+}
+
+#skills1 {
+	margin-top: -25px;
+	margin-left: 365px;
+	margin-right: 80px;
+	width: 150px;
+	height: 40px;
+	float: left;
+}
+
+.skills1_1 {
+	font-family: Cambria;
+	font-size: 23px;
+	font-style: italic;
+	color: #fff;
+	margin-bottom: -5px;
+}
+
+.skills1_2 {
+	font-family: "PT sans";
+	font-size: 12px;
+	color: #fff;
+}
+
+#links a {
+	margin-left: 30px;
+	display: block;
+	float: left;
+}
+
+#skills2 {
+	margin-left: 185px;
+	margin-top: 40px;
+	margin-bottom: 30px;
+	width: 580px;
+}
+
+.skills2_1 {
+	padding-top: 50px;
+	font-family: "PT sans";
+	font-size: 12px;
+	color: #fff;
+	-moz-hyphens: auto;
+	-webkit-hyphens: auto;
+	-ms-hyphens: auto;
+	-o-hyphens: auto;
+}
+
+#skill-left {
+	float: left;
+}
+
+#skill-right {
+	margin-right: 200px;
+	float: right;
+}
+
+.skill-right {
+	font-family: Cambria;
+	font-size: 24px;
+	color: #fff;
+	margin-bottom: 37px;
+}
+
+#copyright {
+	margin-top: 200px;
+	background: #282828;
+	height: 30px;
+}
+
+.text_cop {
+	padding: 5px;
+	color: #FFFFFF;
+	opacity: 0.4;
+	text-align: right;
+	font-family: "PT sans";
+	font-size: 13px;
+	margin-right: 200px;
+}
